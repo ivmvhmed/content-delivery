@@ -1,7 +1,7 @@
 # Handoff: Claude's notes moved into docs/brain; vault link on Ahmed's PC
 
 - Date (UTC): 2026-10-16 00:44 · Status: COMPLETE (PR open for review)
-- Branch: docs/obsidian-brain (base: main) · PR: see the PR for this branch
+- Branch: docs/obsidian-brain (base: main) · PR: #2
 - Written by: Claude Opus 5.5
 
 ## Goal
