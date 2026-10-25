@@ -1,0 +1,96 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>موقعك بلغتين: إزاي تظهر في محركات الإجابات بالعربي والإنجليزي</title>
+<style>
+@font-face{font-family:'Cairo';font-weight:400;src:url('../../fonts/cairo-arabic-400-normal.woff2') format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200F,U+060C,U+061B,U+061F}
+@font-face{font-family:'Cairo';font-weight:400;src:url('../../fonts/cairo-latin-400-normal.woff2') format('woff2');unicode-range:U+0000-00FF,U+2000-206F,U+2190-21FF,U+2700-27BF}
+@font-face{font-family:'Cairo';font-weight:700;src:url('../../fonts/cairo-arabic-700-normal.woff2') format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200F,U+060C,U+061B,U+061F}
+@font-face{font-family:'Cairo';font-weight:700;src:url('../../fonts/cairo-latin-700-normal.woff2') format('woff2');unicode-range:U+0000-00FF,U+2000-206F,U+2190-21FF,U+2700-27BF}
+@font-face{font-family:'Cairo';font-weight:800;src:url('../../fonts/cairo-arabic-800-normal.woff2') format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200F,U+060C,U+061B,U+061F}
+@font-face{font-family:'Cairo';font-weight:800;src:url('../../fonts/cairo-latin-800-normal.woff2') format('woff2');unicode-range:U+0000-00FF,U+2000-206F,U+2190-21FF,U+2700-27BF}
+@page{size:A4;margin:12mm 14mm 12mm 14mm}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:'Cairo',sans-serif;color:#141A2A;font-size:12pt;line-height:1.7;max-width:820px;margin:0 auto;padding:14px}
+@media print{body{max-width:none;padding:0}}
+.head{background:#0B1220;color:#F4F1EA;border-radius:14px;padding:22px 26px 24px;margin-bottom:16px}
+.head .k{display:inline-block;background:#F5B301;color:#0B1220;font-weight:700;font-size:10.5pt;padding:1px 14px 3px;border-radius:99px}
+.head h1{margin:10px 0 4px;font-size:23pt;line-height:1.35;font-weight:800}
+.head p{margin:0;color:#C9CFDB;font-size:12pt}
+h1,h2,h3{break-after:avoid}
+h2{font-size:15pt;font-weight:800;margin:20px 0 6px;color:#0B1220;border-bottom:2px solid #F5B301;padding-bottom:2px}
+h3{font-size:13pt;font-weight:800;margin:14px 0 4px}
+p{margin:6px 0}
+ul,ol{margin:6px 0;padding-right:1.5em;padding-left:0}
+li{margin:4px 0;break-inside:avoid}
+li::marker{color:#C98F00;font-weight:700}
+blockquote{margin:12px 0;background:#FFF7DD;border-right:5px solid #F5B301;border-radius:8px;padding:8px 16px;break-inside:avoid}
+blockquote p{margin:4px 0}
+table{width:100%;border-collapse:collapse;margin:10px 0;font-size:11.5pt;break-inside:avoid}
+th,td{border:1px solid #CBD1DE;padding:6px 10px;text-align:right;vertical-align:top}
+th{background:#0B1220;color:#F5B301;font-weight:700}
+code{direction:ltr;unicode-bidi:embed;background:#F1F3F8;border-radius:4px;padding:0 5px;font-size:10.5pt}
+pre{direction:ltr;text-align:left;background:#0B1220;color:#F4F1EA;border-radius:10px;padding:12px 16px;overflow-x:auto;break-inside:avoid;font-size:10pt;line-height:1.5}
+pre code{background:none;padding:0;color:inherit}
+hr{border:0;border-top:1px solid #CBD1DE;margin:16px 0}
+.foot{margin-top:14px;padding-top:8px;border-top:1px solid #CBD1DE;font-size:10.5pt;color:#5A6378;direction:ltr;text-align:right}
+</style></head><body>
+<div class="head"><span class="k">موقع بلغتين</span><h1>موقعك بلغتين: إزاي تظهر في محركات الإجابات بالعربي والإنجليزي</h1><p>خطوات وقايمة فحص قبل ما تسلّم أي موقع</p></div>
+<p>لما عميل يسأل Google أو مساعد AI عن خدمتك، اللي بيقرا موقعك مش إنسان، ده crawler. والـ crawler بيشوف الموقع بطريقة غير اللي انت بتشوفه بيها. الورقة دي خطوات تخلي النسختين، العربي والإنجليزي، يتشافوا وينفع يتقتبس منهم.</p>
+<h2>ليه موقع بلغتين بيضيع منه لغة</h2>
+<p>أغلب المواقع بتتبني بمنطق "الزائر يلاقي لغته". يعني الموقع يعرف الزائر من بلده أو من إعدادات متصفحه ويحوّله. ده حلو للزائر البشري، بس الـ crawler غالبا بيزور من سيرفرات في بلد تانية، فبياخد اللغة اللي الموقع يختارها لبلد السيرفر ده، والنسخة التانية ممكن مايوصلهاش أبدا.</p>
+<blockquote>
+<p>قاعدة: أي حاجة الموقع بيقررها لوحده عن اللغة، الـ crawler هيشوفها بشكل تاني.</p>
+</blockquote>
+<h2>الخطوات</h2>
+<h3>1. رابط مستقل لكل لغة</h3>
+<p>كل لغة ليها رابط ثابت لوحدها، يعني النسخة العربي على مسار والإنجليزي على مسار تاني. لو اللغتين على رابط واحد والزرار بيبدّل الكلام بالـ JavaScript، المحرك ممكن يشوف نسخة واحدة بس.</p>
+<h3>2. اربط النسختين ببعض بـ hreflang</h3>
+<p>في كل صفحة، علامة hreflang بتقول للمحرك: دي نسخة عربي، وده رابط النسخة الإنجليزي بتاعتها، والعكس. وكل صفحة تشاور على نفسها كمان. الغرض إن المحرك يفهم إنهم صفحة واحدة بلغتين مش صفحتين متكررتين.</p>
+<h3>3. متحوّلش تلقائي حسب البلد</h3>
+<p>اعرض اللغة المناسبة كاقتراح، زرار أو شريط صغير، وسيب الزائر يختار. التحويل التلقائي الإجباري هو أكتر حاجة بتخبي لغة كاملة من الـ crawler.</p>
+<h3>4. اكتب العنوان والوصف بكل لغة لوحدها</h3>
+<p>العنوان (title) والوصف (meta description) لازم يتكتبوا بالعربي للصفحة العربي من الأول، بالكلام اللي العميل بيسأل بيه، مش ترجمة آلية للإنجليزي.</p>
+<h3>5. إجابة واضحة في أول الصفحة</h3>
+<p>أول جملتين تحت العنوان بيقولوا: انت مين، بتخدم مين، وبتحل إيه. اكتبهم كإجابة كاملة تتفهم لو اتاخدت لوحدها، لأن ده الجزء الأقرب للاقتباس. الشعار والسلايدر والعروض بعد كده.</p>
+<h3>6. أسئلة وأجوبة بصيغة العميل</h3>
+<p>قسم أسئلة بنفس الصياغة اللي العميل بيكتب بيها، كل سؤال بإجابة من سطرين تلاتة. اكتبه بالعربي المصري المفهوم مش بالفصحى الرسمية لو ده كلام عميلك.</p>
+<h2>قايمة فحص قبل ما تسلّم الموقع</h2>
+<table>
+<thead>
+<tr>
+<th>الفحص</th>
+<th>المطلوب</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>افتح الموقع من VPN في بلد تاني</td>
+<td>نفس الرابط يفتح نفس اللغة</td>
+</tr>
+<tr>
+<td>الرابط العربي والإنجليزي</td>
+<td>مختلفين وثابتين</td>
+</tr>
+<tr>
+<td>hreflang</td>
+<td>موجود في الاتجاهين</td>
+</tr>
+<tr>
+<td>تحويل تلقائي</td>
+<td>مفيش، بس اقتراح</td>
+</tr>
+<tr>
+<td>العنوان والوصف</td>
+<td>مكتوبين بكل لغة لوحدها</td>
+</tr>
+<tr>
+<td>أول جملتين</td>
+<td>بيقولوا انت مين ولمين وبتحل إيه</td>
+</tr>
+</tbody>
+</table>
+<h2>ملاحظة أخيرة</h2>
+<p>محدش يقدر يضمن إن محرك إجابات معين هيقتبس منك، لأن كل محرك ليه طريقته. اللي بتتحكم فيه إن مفيش حاجة في موقعك بتمنع المحرك من إنه يشوف أو يفهم أي نسخة، وده بيتفحص في عشر دقايق.</p>
+<div class="foot">Ahmed Sherif Nabhan</div>
+</body></html>
